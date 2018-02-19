@@ -16,5 +16,17 @@ namespace FallingObjectsThomasA
         {
             InitializeComponent();
         }
+
+        private void btnCalculateAnswer_Click(object sender, EventArgs e)
+        {
+            //Create an Answer variable. We use a double to allow for decimals
+            double answer;
+
+            //Take string from text box (Time variable we need), and convert it to a double and store in answer variable
+            answer = double.Parse(txtAnswerInput.Text);
+
+            //Calculate Answer and make it a string to display
+            lblAnswer.Text = Convert.ToString(100 - 0.5 * 9.8 * Math.Pow(answer, 2));
+        }
     }
 }

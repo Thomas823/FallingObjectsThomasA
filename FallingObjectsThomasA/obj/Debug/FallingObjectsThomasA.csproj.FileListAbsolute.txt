@@ -1,0 +1,10 @@
+C:\Users\Thomas\Desktop\Programming\Assignments\FallingObjectsThomasA\FallingObjectsThomasA\bin\Debug\FallingObjectsThomasA.exe.config
+C:\Users\Thomas\Desktop\Programming\Assignments\FallingObjectsThomasA\FallingObjectsThomasA\bin\Debug\FallingObjectsThomasA.exe
+C:\Users\Thomas\Desktop\Programming\Assignments\FallingObjectsThomasA\FallingObjectsThomasA\bin\Debug\FallingObjectsThomasA.pdb
+C:\Users\Thomas\Desktop\Programming\Assignments\FallingObjectsThomasA\FallingObjectsThomasA\obj\Debug\FallingObjectsThomasA.csprojResolveAssemblyReference.cache
+C:\Users\Thomas\Desktop\Programming\Assignments\FallingObjectsThomasA\FallingObjectsThomasA\obj\Debug\FallingObjectsThomasA.frmFallingObjects.resources
+C:\Users\Thomas\Desktop\Programming\Assignments\FallingObjectsThomasA\FallingObjectsThomasA\obj\Debug\FallingObjectsThomasA.Properties.Resources.resources
+C:\Users\Thomas\Desktop\Programming\Assignments\FallingObjectsThomasA\FallingObjectsThomasA\obj\Debug\FallingObjectsThomasA.csproj.GenerateResource.Cache
+C:\Users\Thomas\Desktop\Programming\Assignments\FallingObjectsThomasA\FallingObjectsThomasA\obj\Debug\FallingObjectsThomasA.csproj.CoreCompileInputs.cache
+C:\Users\Thomas\Desktop\Programming\Assignments\FallingObjectsThomasA\FallingObjectsThomasA\obj\Debug\FallingObjectsThomasA.exe
+C:\Users\Thomas\Desktop\Programming\Assignments\FallingObjectsThomasA\FallingObjectsThomasA\obj\Debug\FallingObjectsThomasA.pdb
