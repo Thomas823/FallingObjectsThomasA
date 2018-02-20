@@ -15,6 +15,10 @@ namespace FallingObjectsThomasA
         public frmFallingObjects()
         {
             InitializeComponent();
+
+            //Hide the answerprompt and answer 
+            this.lblAnswerPrompt.Hide();
+            this.lblAnswer.Hide();
         }
 
         private void btnCalculateAnswer_Click(object sender, EventArgs e)
@@ -26,7 +30,16 @@ namespace FallingObjectsThomasA
             answer = double.Parse(txtAnswerInput.Text);
 
             //Calculate Answer and make it a string to display
-            lblAnswer.Text = Convert.ToString(100 - 0.5 * 9.8 * Math.Pow(answer, 2));
+            lblAnswer.Text = Convert.ToString(100 - 0.5 * 9.8 * Math.Pow(answer, 2)) + " meters";
+
+            //If object has already hit the ground
+            if (100 - 0.5 * 9.8 * Math.Pow(answer, 2) < 0) {
+                lblAnswer.Text = "You have already hit the ground!";
+            }
+
+            //Show the answerprompt and answer
+            this.lblAnswerPrompt.Show();
+            this.lblAnswer.Show();
         }
     }
 }

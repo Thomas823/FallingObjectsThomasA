@@ -65,12 +65,11 @@
             // lblAnswer
             // 
             this.lblAnswer.AutoSize = true;
-            this.lblAnswer.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAnswer.Location = new System.Drawing.Point(377, 212);
+            this.lblAnswer.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAnswer.Location = new System.Drawing.Point(386, 215);
             this.lblAnswer.Name = "lblAnswer";
-            this.lblAnswer.Size = new System.Drawing.Size(295, 32);
+            this.lblAnswer.Size = new System.Drawing.Size(0, 22);
             this.lblAnswer.TabIndex = 3;
-            this.lblAnswer.Text = "Input Your First Height!";
             // 
             // btnCalculateAnswer
             // 
