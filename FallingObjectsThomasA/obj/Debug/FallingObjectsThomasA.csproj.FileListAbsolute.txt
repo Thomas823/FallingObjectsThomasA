@@ -8,3 +8,12 @@ C:\Users\Thomas\Desktop\Programming\Assignments\FallingObjectsThomasA\FallingObj
 C:\Users\Thomas\Desktop\Programming\Assignments\FallingObjectsThomasA\FallingObjectsThomasA\obj\Debug\FallingObjectsThomasA.csproj.CoreCompileInputs.cache
 C:\Users\Thomas\Desktop\Programming\Assignments\FallingObjectsThomasA\FallingObjectsThomasA\obj\Debug\FallingObjectsThomasA.exe
 C:\Users\Thomas\Desktop\Programming\Assignments\FallingObjectsThomasA\FallingObjectsThomasA\obj\Debug\FallingObjectsThomasA.pdb
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Aubin, Thomas (s405546)\Assignments\FallingObjectsThomasA\FallingObjectsThomasA\bin\Debug\FallingObjectsThomasA.exe.config
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Aubin, Thomas (s405546)\Assignments\FallingObjectsThomasA\FallingObjectsThomasA\bin\Debug\FallingObjectsThomasA.exe
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Aubin, Thomas (s405546)\Assignments\FallingObjectsThomasA\FallingObjectsThomasA\bin\Debug\FallingObjectsThomasA.pdb
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Aubin, Thomas (s405546)\Assignments\FallingObjectsThomasA\FallingObjectsThomasA\obj\Debug\FallingObjectsThomasA.csprojResolveAssemblyReference.cache
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Aubin, Thomas (s405546)\Assignments\FallingObjectsThomasA\FallingObjectsThomasA\obj\Debug\FallingObjectsThomasA.frmFallingObjects.resources
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Aubin, Thomas (s405546)\Assignments\FallingObjectsThomasA\FallingObjectsThomasA\obj\Debug\FallingObjectsThomasA.Properties.Resources.resources
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Aubin, Thomas (s405546)\Assignments\FallingObjectsThomasA\FallingObjectsThomasA\obj\Debug\FallingObjectsThomasA.csproj.GenerateResource.Cache
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Aubin, Thomas (s405546)\Assignments\FallingObjectsThomasA\FallingObjectsThomasA\obj\Debug\FallingObjectsThomasA.exe
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Aubin, Thomas (s405546)\Assignments\FallingObjectsThomasA\FallingObjectsThomasA\obj\Debug\FallingObjectsThomasA.pdb

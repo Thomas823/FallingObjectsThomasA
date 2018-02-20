@@ -12,6 +12,9 @@ namespace FallingObjectsThomasA
 {
     public partial class frmFallingObjects : Form
     {
+        //Create an Answer variable. We use a double to allow for decimals
+        double userInputTime;
+
         public frmFallingObjects()
         {
             InitializeComponent();
@@ -23,17 +26,14 @@ namespace FallingObjectsThomasA
 
         private void btnCalculateAnswer_Click(object sender, EventArgs e)
         {
-            //Create an Answer variable. We use a double to allow for decimals
-            double answer;
-
             //Take string from text box (Time variable we need), and convert it to a double and store in answer variable
-            answer = double.Parse(txtAnswerInput.Text);
+            userInputTime = double.Parse(txtAnswerInput.Text);
 
-            //Calculate Answer and make it a string to display
-            lblAnswer.Text = Convert.ToString(100 - 0.5 * 9.8 * Math.Pow(answer, 2)) + " meters";
+            //Calculate Answer (H = 100 - 0.5 * g * t^2) and make it a string to display
+            lblAnswer.Text = Convert.ToString(100 - 0.5 * 9.8 * Math.Pow(userInputTime, 2)) + " meters";
 
             //If object has already hit the ground
-            if (100 - 0.5 * 9.8 * Math.Pow(answer, 2) < 0) {
+            if (100 - 0.5 * 9.8 * Math.Pow(userInputTime, 2) < 0) {
                 lblAnswer.Text = "You have already hit the ground!";
             }
 
