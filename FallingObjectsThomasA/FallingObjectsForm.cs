@@ -12,8 +12,10 @@ namespace FallingObjectsThomasA
 {
     public partial class frmFallingObjects : Form
     {
-        //Create an Answer variable. We use a double to allow for decimals
+        //Create a finalAnswer, InputTime, and InputHeight variable. We use a double to allow for decimals.
         double userInputTime;
+        double userInputHeight;
+        double finalAnswer;
 
         public frmFallingObjects()
         {
@@ -21,25 +23,39 @@ namespace FallingObjectsThomasA
 
             //Hide the answerprompt and answer 
             this.lblAnswerPrompt.Hide();
-            this.lblAnswer.Hide();
+            this.lblFinalAnswer.Hide();
         }
 
         private void btnCalculateAnswer_Click(object sender, EventArgs e)
         {
-            //Take string from text box (Time variable we need), and convert it to a double and store in answer variable
-            userInputTime = double.Parse(txtAnswerInput.Text);
+            //Take string from height and time text box, and convert it to a double
+            userInputHeight = double.Parse(txtInputHeight.Text);
+            userInputTime = double.Parse(txtInputTime.Text);
 
-            //Calculate Answer (H = 100 - 0.5 * g * t^2) and make it a string to display
-            lblAnswer.Text = Convert.ToString(100 - 0.5 * 9.8 * Math.Pow(userInputTime, 2)) + " meters";
+            //Calculate Answer (H = StartHeight - 0.5 * g * t^2) and round by two decimal places
+            finalAnswer = userInputHeight - 0.5 * 9.8 * Math.Pow(userInputTime, 2);
+            finalAnswer = finalAnswer * 100;
+            finalAnswer = Math.Round(finalAnswer);
+            finalAnswer = finalAnswer / 100;
+
+            //Convert to a string to display
+            lblFinalAnswer.Text = Convert.ToString(finalAnswer) + " meters";
 
             //If object has already hit the ground
-            if (100 - 0.5 * 9.8 * Math.Pow(userInputTime, 2) < 0) {
-                lblAnswer.Text = "You have already hit the ground!";
+            if (userInputHeight - 0.5 * 9.8 * Math.Pow(userInputTime, 2) < 0)
+            {
+                lblFinalAnswer.Text = "You have already hit the ground!";
+            }
+
+            //If object starts on the ground
+            if (userInputHeight == 0)
+            {
+                lblFinalAnswer.Text = "You are already on the ground!";
             }
 
             //Show the answerprompt and answer
             this.lblAnswerPrompt.Show();
-            this.lblAnswer.Show();
+            this.lblFinalAnswer.Show();
         }
     }
 }
